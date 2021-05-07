@@ -7,4 +7,4 @@ function printMessage(msg){
 function clearMessages() {
 	document.getElementById('messages').innerHTML = '';
 }
-let playerMove = 'papier'
+let playerMove = 'papier';
