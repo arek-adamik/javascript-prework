@@ -4,6 +4,7 @@ function printMessage(msg){
 	document.getElementById('messages').appendChild(div);
 }
 
-function clearMessages(){
+function clearMessages() {
 	document.getElementById('messages').innerHTML = '';
 }
+let playerMove = 'papier'
