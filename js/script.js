@@ -76,4 +76,3 @@ document.getElementById('play-paper').addEventListener('click', function(){
 document.getElementById('play-scissors').addEventListener('click', function(){
 	playGame(3);
   });
-  clearMessages(playGame);
