@@ -1,11 +1,11 @@
 {
-function playGame(playerInput){
+const playGame = function(playerInput){
 
-	function getMoveName(argMoveId){
+	const getMoveName = function(argMoveId){
 		if(argMoveId == 1){
 			return 'kamień';
 		}
-		else if(argMoveId == 2){
+		else if(argMoveId == 2){	
 			return 'papier';
 		}
 		else if(argMoveId == 3){
@@ -13,9 +13,9 @@ function playGame(playerInput){
 		}
 
 		printMessage('Nie znam ruchu o id ' + argMoveId + '.');
-		return 'nieznany ruch';
+		return 'nieznany ruch';	
 	}
-	function displayResult(argComputerMove, argPlayerMove){
+	const displayResult = function(argComputerMove, argPlayerMove){
 		console.log('moves:', argComputerMove, argPlayerMove);
 		printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 		if( argComputerMove == 'kamień' && argPlayerMove == 'papier'){
